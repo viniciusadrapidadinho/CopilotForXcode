@@ -1,7 +1,7 @@
 // swift-tools-version: 5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 executar arquivo :[swift bluid]
-clonar sotreger[finrun]abara entra e fin stoprer e aber up ump um e a line aline online a on 
+clonar sotreger clone arquivo executardado ###########___[ abrir] [abrir execucacão][finrun][swifit run]abara entra e fin stoprer e aber up ump um e a line aline online a on 
 import Foundation
 import PackageDescription
 
