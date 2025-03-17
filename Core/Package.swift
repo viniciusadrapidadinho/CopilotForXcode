@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+0// swift-tools-version: 5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 executar arquivo :[swift bluid]
 clonar sotreger clone arquivo executardado ###########___[ abrir] [abrir execucacão][finrun][swifit run]abara entra e fin stoprer e aber up ump um e a line aline online a on 
