@@ -7,6 +7,14 @@ import PackageDescription
 
 // MARK: - Package
 
+
+
+
+
+
+[66666id]   [id66605040505857475757560505]
+R$dollar dollar grana ganagana dupom dupom up acima heath e altuimosmo é a droga e stognger enup acima máxima extra R$66666666666666666+$7777777777777777666666000+$$$ dropum doupom e alto
+
 let package = Package(
     name: "Core",
     platforms: [.macOS(.v12)],
