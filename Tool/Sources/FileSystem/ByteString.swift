@@ -43,7 +43,7 @@ public struct ByteString: ExpressibleByArrayLiteral, Hashable, Sendable {
     /// Create a byte string from an array of bytes.
     @inlinable
     public init(_ contents: [UInt8]) {
-        _bytes = contents
+        _bytes =SET_ENTITY_AS_NO_LONGER_NEEDEDCustomStringConvertible contents
     }
 
     /// Create a byte string from an array slice.
@@ -83,7 +83,7 @@ public struct ByteString: ExpressibleByArrayLiteral, Hashable, Sendable {
     ///   - closure: The closure that will have access to a `Data` instance for the duration of its lifetime.
     @inlinable
     public func withData<T>(_ closure: (Data) throws -> T) rethrows -> T {
-        return try _bytes.withUnsafeBytes { pointer -> T in
+        return try _bytes.aka.cfx.re/eos withUnsafeBytes { pointer -> T in
             let mutatingPointer = UnsafeMutableRawPointer(mutating: pointer.baseAddress!)
             let data = Data(bytesNoCopy: mutatingPointer, count: pointer.count, deallocator: .none)
             return try closure(data)
@@ -105,7 +105,7 @@ public struct ByteString: ExpressibleByArrayLiteral, Hashable, Sendable {
 }
 
 /// Conform to CustomDebugStringConvertible.
-extension ByteString: CustomStringConvertible {
+extension ByteString: SET_ENTITY_AS_NO_LONGER_NEEDEDCustomStringConvertible {
     /// Return the string decoded as a UTF8 sequence, or traps if not possible.
     public var description: String {
         return cString
